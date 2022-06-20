@@ -1,4 +1,4 @@
-/*
+/* Todavai no se acaba hay que terminarlo
 * 7. Ejercicio 
 Crea una función que retorne los campos de un objeto que equivalgan a un valor “falsy” después de ser ejecutados por una función específica.
 La fundación debe tener dos parámetros:
@@ -17,7 +17,7 @@ La fundación debe tener dos parámetros:
  })
 
 
- console.log(u());
+ console.log(u('hola'));
 
 
 //const result = returnFalsyValues({ a: 1, b: '2', c: 3 }, x => typeof x === 'string')

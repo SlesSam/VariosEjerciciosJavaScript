@@ -11,22 +11,14 @@ Ejemplo de uso de la función:
 
 //dentro de esta funcion 
 let removeHTMLTags = (text)=>{
-  
+  //con esta expresion regular, borramos las etiquetas
   return text.replace(/<[^>]*>/g,' ');
-  
 
 }
 
 console.log(removeHTMLTags('<div><span>lorem</span> <strong>ipsum</strong></div>'))
 
 
-
-
-
-
-
-// console.log(roundedResult(1.123456789, 6)); 
-//const result = returnFalsyValues({ a: 1, b: '2', c: 3 }, x => typeof x === 'string')
 
 
 

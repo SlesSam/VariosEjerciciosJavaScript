@@ -9,7 +9,7 @@ Segundo parámetro debe ser un número especificando la cantidad de dígitos a l
 */
 
 
-//dentro de esta funcion 
+
 let fromBytesToFormattedSizeUnits = (bytes, digits)=>{
   let operation =Math.floor(Math.log(bytes) / Math.log(1000));
   let sizes = ['Byte', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
@@ -25,9 +25,6 @@ console.log(fromBytesToFormattedSizeUnits(1000,1))
 
 
 
-
-// console.log(roundedResult(1.123456789, 6)); 
-//const result = returnFalsyValues({ a: 1, b: '2', c: 3 }, x => typeof x === 'string')
 
 
 

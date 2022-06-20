@@ -19,7 +19,7 @@ const nuevoArrays = arrCities2.filter((e)=>{
 //con map creamos nuevos datos filtrados por el if
 }).map(element=> {
   //creamos esta variable para poder 
-  let country:boolean = (element.country ==='Spain');
+  let country = (element.country ==='Spain');
 	return {
     city: element.city,
 		isSpain: country
